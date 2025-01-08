@@ -7,20 +7,26 @@ on:
             - main # The 'main' branch
             - 'releases/*' # The release branches
 jobs:
-    qodana:
-        runs-on: ubuntu-latest
-        permissions:
-            contents: write
-            pull-requests: write
-            checks: write
-        steps:
-            - uses: actions/checkout@v3
-              with:
-                  ref: ${{ github.event.pull_request.head.sha }}  # to check out the actual pull request commit, not the merge commit
-                  fetch-depth: 0  # a full history is required for pull request analysis
-            - name: 'Qodana Scan'
-              uses: JetBrains/qodana-action@v2024.3
-              with:
-                  args: --ide,QDPHP
-              env:
-                  QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_1344490925 }}
+  qodana:
+    runs-on: ubuntu-latest
+    name: 'Qodana Scan'
+    steps:
+      - name: Setup PHP with no coverage driver
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          coverage: none
+          extensions: bcmath, intl
+        env:
+          update: true
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+          
+      - name: Install dependencies
+        run: composer install
+        
+      - name: 'Qodana Scan'
+        uses: JetBrains/qodana-action@main
+        env:
+            QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_1344490925 }}
