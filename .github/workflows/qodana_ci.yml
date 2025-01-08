@@ -29,6 +29,6 @@ jobs:
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@main
         with:
-            args: --baseline,<path/to/qodana.sarif.json>,--linter,jetbrains/qodana-php:2024.3
+            args: --linter,jetbrains/qodana-php:2024.3
         env:
             QODANA_TOKEN: ${{ secrets.QODANA_TOKEN_1344490925 }}
