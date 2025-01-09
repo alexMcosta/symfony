@@ -1,2 +1,8 @@
 php:
   version: "8.1"
+
+script:
+  name: php-migration
+  parameters:
+    fromLevel: 8.2
+    toLevel: 8.3
