@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39bf6d5b-f6ad-41e2-bc9b-78e76a61eabe" name="Changes" comment="add migration">
+      <change beforePath="$PROJECT_DIR$/qodana.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Finder/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Validator/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/MailPace/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Contracts/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Postmark/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/FakeSms/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Esendex/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Mercure/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/RocketChat/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/CssSelector/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/LightSms/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/HttpKernel/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Mailchimp/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Process/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/LineNotify/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/LineBot/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mime/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Iqsms/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Zulip/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Bridge/PsrHttpMessage/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Infobip/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Asset/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Translation/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Sendgrid/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Contracts/Cache/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/ContactEveryone/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/GoogleChat/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/OrangeSms/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Sms77/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Bundle/WebProfilerBundle/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Intl/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Brevo/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/AhaSend/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Clickatell/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/MessageBird/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/KazInfoTeh/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/LinkedIn/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Serializer/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Translation/Bridge/Loco/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/PasswordHasher/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Console/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Lock/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/BrowserKit/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Translation/Bridge/Lokalise/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Chatwork/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/String/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Dotenv/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Runtime/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Uid/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/FreeMobile/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/EventDispatcher/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/SmsSluzba/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Yaml/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/SmsFactor/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Translation/Bridge/Phrase/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/OneSignal/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/AssetMapper/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Mailgun/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Bundle/FrameworkBundle/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/RingCentral/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Yunpian/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Messenger/Bridge/Doctrine/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Smsapi/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Sweego/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Sendberry/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Firebase/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Security/Http/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Mailjet/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Bridge/Twig/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Infobip/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/OvhCloud/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Workflow/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/GatewayApi/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Isendpro/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Mobyt/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Unifonic/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Amazon/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Config/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Ntfy/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Mattermost/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/PropertyAccess/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Mailtrap/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Smsense/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Contracts/HttpClient/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Messenger/Bridge/Beanstalkd/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Messenger/Bridge/AmazonSqs/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Messenger/Bridge/Redis/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Bandwidth/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Contracts/Translation/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/ExpressionLanguage/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/TypeInfo/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/GoIp/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Stopwatch/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Expo/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Postal/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Messenger/Bridge/Amqp/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Slack/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Twilio/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Google/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Plivo/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/AmazonSns/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/DependencyInjection/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/RemoteEvent/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/SimpleTextin/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Sinch/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Novu/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/ClickSend/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Mastodon/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Emoji/Resources/bin/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/VarExporter/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/ErrorHandler/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Scheduler/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Termii/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Bridge/Monolog/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Contracts/Service/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/OptionsResolver/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/FakeChat/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/MicrosoftTeams/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/HttpFoundation/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Pushover/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Security/Csrf/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Contracts/EventDispatcher/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Security/Core/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Bluesky/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Emoji/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/VarDumper/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/HtmlSanitizer/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Bundle/SecurityBundle/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Twitter/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Messenger/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Semaphore/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/HttpClient/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/JsonEncoder/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Telnyx/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Telegram/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Pushy/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Bridge/PhpUnit/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Sipgate/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/MailerSend/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Redlink/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Zendesk/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Smsbox/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/PagerDuty/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/SpotHit/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Sevenio/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Webhook/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/PropertyInfo/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Brevo/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Form/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Translation/Bridge/Crowdin/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Mailomat/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Lox24/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Smsmode/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Discord/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Vonage/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Resend/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Contracts/Deprecation/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Smsc/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Cache/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/MessageMedia/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Engagespot/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Azure/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/WebLink/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Sweego/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Ldap/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/JoliNotif/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/TurboSms/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/DomCrawler/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Clock/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/AllMySms/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Mailjet/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Primotexto/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Bundle/DebugBundle/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Mailer/Bridge/Scaleway/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Bundle/TwigBundle/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/Octopush/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Routing/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Bridge/Doctrine/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Filesystem/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/RateLimiter/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/SmsBiuras/composer.json" />
+      <option value="$PROJECT_DIR$/src/Symfony/Component/Notifier/Bridge/FortySixElks/composer.json" />
+    </option>
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="7.3" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;alexMcosta&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alexMcosta/symfony.git&quot;,
+    &quot;accountId&quot;: &quot;ebd7b149-9102-49df-887a-0063a3d3f51c&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2rMV3d8j5atL5OpUwfLUpvfTUr4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#1 on qodana-automation-498171576&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="QodanaCIConfigService">
+    <option name="ciType" value="GITHUB" />
+    <option name="path" value="$PROJECT_DIR$/.github/workflows/qodana_ci.yml" />
+  </component>
+  <component name="QodanaCloudProjectLink">
+    <option name="lastReportId" value="6Zq2W" />
+    <option name="linkedProjectId" value="A6DNN" />
+    <option name="linkedProjectName" value="PHP - Symphony" />
+    <option name="organizationId" value="AY5y2" />
+    <option name="userId" value="2056n" />
+  </component>
+  <component name="QodanaHighlightedReportService">
+    <option name="cloudReportPersistedInfo">
+      <CloudReportPersistedInfo>
+        <option name="projectId" value="A6DNN" />
+        <option name="reportId" value="yrjle" />
+      </CloudReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-PS-243.23654.168" />
+        <option value="bundled-php-predefined-a98d8de5180a-4c3855d0ab16-com.jetbrains.php.sharedIndexes-PS-243.23654.168" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39bf6d5b-f6ad-41e2-bc9b-78e76a61eabe" name="Changes" comment="" />
+      <created>1736368732702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736368732702</updated>
+      <workItem from="1736368734171" duration="5464000" />
+      <workItem from="1736435861790" duration="2407000" />
+      <workItem from="1738935621569" duration="3604000" />
+      <workItem from="1740743589025" duration="1179000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <option name="closed" value="true" />
+      <created>1736371887495</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736371887495</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1736371897474</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736371897474</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test">
+      <option name="closed" value="true" />
+      <created>1736372297421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736372297421</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update PHP version">
+      <option name="closed" value="true" />
+      <created>1736373418303</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736373418303</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update PHP version">
+      <option name="closed" value="true" />
+      <created>1736373643891</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736373643891</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update PHP version">
+      <option name="closed" value="true" />
+      <created>1736375075052</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736375075052</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add migration">
+      <option name="closed" value="true" />
+      <created>1736420426232</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736420426232</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="update PHP version" />
+    <MESSAGE value="add migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="add migration" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

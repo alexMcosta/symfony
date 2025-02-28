@@ -1,0 +1,34 @@
+Index: qodana.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>php:\n  version: \"8.1\"\n\nscript:\n  name: php-migration\n  parameters:\n    fromLevel: 8.2\n    toLevel: 8.3\n
+===================================================================
+diff --git a/qodana.yml b/qodana.yml
+--- a/qodana.yml	(revision 1f6142403dcf2dd55fc27b0e3f418bbcd6f11d05)
++++ b/qodana.yml	(date 1736422279001)
+@@ -1,6 +1,8 @@
+ php:
+   version: "8.1"
+ 
++linter: jetbrains/qodana-php:2024.3
++
+ script:
+   name: php-migration
+   parameters:
+Index: .idea/php.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"MessDetectorOptionsConfiguration\">\n    <option name=\"transferred\" value=\"true\" />\n  </component>\n  <component name=\"PHPCSFixerOptionsConfiguration\">\n    <option name=\"transferred\" value=\"true\" />\n  </component>\n  <component name=\"PHPCodeSnifferOptionsConfiguration\">\n    <option name=\"highlightLevel\" value=\"WARNING\" />\n    <option name=\"transferred\" value=\"true\" />\n  </component>\n  <component name=\"PhpProjectSharedConfiguration\" php_language_level=\"8.4\">\n    <option name=\"suggestChangeDefaultLanguageLevel\" value=\"false\" />\n  </component>\n  <component name=\"PhpStanOptionsConfiguration\">\n    <option name=\"transferred\" value=\"true\" />\n  </component>\n  <component name=\"PsalmOptionsConfiguration\">\n    <option name=\"transferred\" value=\"true\" />\n  </component>\n</project>
+===================================================================
+diff --git a/.idea/php.xml b/.idea/php.xml
+--- a/.idea/php.xml	(revision 1f6142403dcf2dd55fc27b0e3f418bbcd6f11d05)
++++ b/.idea/php.xml	(date 1736435868167)
+@@ -10,7 +10,7 @@
+     <option name="highlightLevel" value="WARNING" />
+     <option name="transferred" value="true" />
+   </component>
+-  <component name="PhpProjectSharedConfiguration" php_language_level="8.4">
++  <component name="PhpProjectSharedConfiguration" php_language_level="8.2">
+     <option name="suggestChangeDefaultLanguageLevel" value="false" />
+   </component>
+   <component name="PhpStanOptionsConfiguration">
